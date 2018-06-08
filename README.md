@@ -26,8 +26,8 @@ and the following druid services :
 - 1 coordinator/overlord
 
 This will take a couple of minutes, but once it is up, you will have:  
-- The Druid cluster dashboard on: (http://localhost:3001/#/)
-- The Druid indexing console on: (http://localhost:3001/console.html)
+- The Druid cluster dashboard on: [http://localhost:3001/#/](http://localhost:3001/#/)
+- The Druid indexing console on: [http://localhost:3001/console.html](http://localhost:3001/console.html)
 
 Now that you have a running cluster, [ingest](wikiticker-index.json) the data found in [data/wikiticker-2015-09-12-sampled.json.gz](data/wikiticker-2015-09-12-sampled.json.gz).  
 Once your ingestion job has succesfully executed, perform [a simple query](wikiticker-top-pages.json) on the freshly created *datasource*.
