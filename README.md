@@ -34,3 +34,9 @@ Once your ingestion job has succesfully executed, perform [a simple query](wikit
 
 The dataset is kindly borrowed from the [Druid quickstart tutorial](http://druid.io/docs/0.12.1/tutorials/quickstart.html), you may find some inspiration there.  
 Read a little about the [Druid indexing service](http://druid.io/docs/0.12.1/design/indexing-service.html) if you like ;)
+
+#### Extra assignments
+Piece of cake was it?  
+Alright, while the above should get us off the ground talking about troubleshooting skills and JVM heap configuration (hint), if you feel courageous; go ahead and setup [realtime ingestion through Kafka](http://druid.io/docs/0.12.1/development/extensions-core/kafka-ingestion.html), into the *wikiticker* datasource, and query your data back out again with a [select query](http://druid.io/docs/0.12.1/querying/select-query.html).  
+
+Also, the attentive ones will notice that we have configured Druid to emit metrics into Kafka. Now create a new *Druid datasource*, and ingest those metrics back into Druid where we can query them. You may find a bit of inspiration in [this blog post](https://metamarkets.com/2015/dogfooding-with-druid-samza-and-kafka-metametrics-at-metamarkets/).
