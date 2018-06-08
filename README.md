@@ -1,4 +1,4 @@
-Linkfire DevDataOps assesment
+Linkfire Big Data DevOps assesment
 ================
 
 What to do?
@@ -33,4 +33,4 @@ Now that you have a running cluster, [ingest](wikiticker-index.json) the data fo
 Once your ingestion job has succesfully executed, perform [a simple query](wikiticker-top-pages.json) on the freshly created *datasource*.
 
 The dataset is kindly borrowed from the [Druid quickstart tutorial](http://druid.io/docs/0.12.1/tutorials/quickstart.html), you may find some inspiration there.  
-Read little about the [Druid indexing service](http://druid.io/docs/0.12.1/design/indexing-service.html) if you like ;)
+Read a little about the [Druid indexing service](http://druid.io/docs/0.12.1/design/indexing-service.html) if you like ;)
